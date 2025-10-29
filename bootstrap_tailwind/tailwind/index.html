@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tailwind</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="relative">
+        <nav class="bg-blue-400 h-20 content-around justify-content-center text-align-center ">
+            <p class="font-bold text-white">Admin</p>
+        </nav>
+    </header>
+    
+    <main class="flex">
+
+        <!-- Lado Esquerdo -->
+        <section class="relative size-60 bg-gray-800 h-dvh">
+            <aside >
+                <div class="p-2 absolute inset-y-0 left-0 w-16">
+                    <div class="size-60 h-40 mt-3 content-around ">
+                        <div class="rounded-full bg-white size-20 "></div>
+                        <div class="">
+                            <h3 class="font-bold text-white">Alexander Pierce</h3>
+                        </div>
+                        <input type="search"  placeholder="Search" class=" w-50 mt-3 block bg-gray-600 py-1.5 pr-3 pl-1 text-base text-white placeholder:text-gray-400 focus:outline-none sm:text-sm/6"/>
+                        
+                        <ul class="p-2 text-gray-300 text-xl mt-3">
+                            <li class="mb-4">Dashboard</li>
+                            <li class="mb-4">Darshboard v1</li>
+                            <li class="mb-4">Darshboard v2</li>
+                            <li class="mb-4">Layout Options</li>
+                            <li class="mb-4">Widgets</li>
+                            <li class="mb-4">Charts</li>
+                            <li class="mb-4">UI Elements</li>
+                            <li class="mb-4">Forms</li>
+                            <li class="mb-4">Tables</li>
+                            <li class="mb-4">Calendar</li>
+                            <li class="mb-4">Mailbox</li>
+                            <li class="mb-4">Examples</li>
+                            <li class="mb-4">Multilevel</li>
+                        </ul>
+                    </div>
+                </div>
+        </aside>
+        </section>
+
+        <!-- Lado Principal -->
+        <section class="relative p-8">
+            <div class="flex flex-row ">
+                <h1 class="text-4xl">Darshboard</h1>
+                <p class="text-xl p-3 text-gray-500">Version 2.0</p>
+            </div>
+            <div class="flex flex-row gap-4 flex-nowwrap ">
+                
+                <div class="w-130 h-70 items-center flex shadow-md">
+                    <div class="w-50 h-70 bg-blue-400"></div>
+                    <h3 class="text-align-top">CPU Traffic</h3>
+                    <h4 class="font-bold">90%</h4>
+                </div>
+
+
+
+                <div class="w-130 h-70 shadow-md">
+                    <div class="w-50 h-70 bg-red-400"></div>
+                    
+                </div>
+                <div class="w-130 h-70 shadow-md">
+                    <div class="w-50 h-70 bg-green-400"></div>
+                </div>
+                <div class="w-130 h-70 shadow-md">
+                    <div class="w-50 h-70 bg-yellow-400"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
