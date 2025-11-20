@@ -85,7 +85,7 @@ const jump = () => {
       soundPowerUp.play()
       break
   }
-
+    
   // muda o mario conforme a pontuação
   if (scoreValue >= 6 && scoreValue <= 10) {
     mario.src = "images/mario-beginner.gif";
