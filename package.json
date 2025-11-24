@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/LuHenriqueVieira/Programacao-Web-Tulio/issues"
   },
-  "homepage": "https://github.com/LuHenriqueVieira/Programacao-Web-Tulio#readme"
+  "homepage": "https://github.com/LuHenriqueVieira/Programacao-Web-Tulio#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
